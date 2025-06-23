@@ -1,7 +1,6 @@
-name: xeus-kernel
+name: cpp-env
 channels:
-  - https://repo.prefix.dev/emscripten-forge-dev
-  - https://repo.prefix.dev/conda-forge
+  - conda-forge
 dependencies:
-  - xeus-python
-  - ipycanvas
+  - xeus-cling  # C++ Jupyter kernel
+  - notebook
